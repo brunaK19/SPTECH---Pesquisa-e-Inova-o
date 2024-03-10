@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - inline</title>
+    <style>
+
+        body{
+            margin: 0;
+        }
+        .card{
+            width: 500px; 
+            height: fit-content; 
+            border:3px solid rgb(255, 170, 100); 
+            border-radius:25px ; 
+            background-color: rgb(248, 240, 169); 
+            margin: 10px; 
+            padding: 10px;
+        }
+
+        .card_img{
+            width: 100px; 
+            border-radius: 50%;
+        }
+
+        .card_img img{
+            width: 100%; 
+            height: 100%;
+        }
+
+        .card_titulo{
+            font-size:35px; 
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .card_titulo .card_titulo_nome{
+            color:rgb(226, 121, 36);
+        }
+
+        .card_mensagem span{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-style: italic;
+            color: rgb(223, 116, 28);
+        }
+
+    </style>
+</head>
+
+<body >
+    <div class="card">
+        <div class = "card_img">
+            <img src="https://cdn-icons-png.flaticon.com/512/706/706830.png" alt="" >
+        </div>
+        <div>
+            <h1 class="card_titulo"><span>Meu nome é: <span class="card_titulo_nome" >Adriana</span></span></h1>
+            <p class="card_mensagem">Mensagem: <span>a vida não é um morango! E tá tudo bem!</span></p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card_img">
+            <img src="https://cdn-icons-png.flaticon.com/512/706/706830.png" alt="">
+        </div>
+        <div>
+            <h1 class="card_titulo"><span>Meu nome é: <span class="card_titulo_nome">Fábio</span></span></h1>
+            <p class="card_mensagem">Mensagem: <span>a vida não é um morango! E tá tudo bem!</span></p>
+        </div>
+    </div>
+</body>
+</html>
